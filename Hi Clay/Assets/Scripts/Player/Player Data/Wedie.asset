@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 059d2222b9fcfa04d86a1a7f2cd4723a, type: 3}
+  m_Name: Wedie
+  m_EditorClassIdentifier: 
+  characterID: 001
+  characterName: Wedie
+  characterDescription: 
+  bulletData: {fileID: 11400000, guid: 21a5586d1d377d34a9c1fc76cd0b169b, type: 2}
+  characterIcon: {fileID: 0}
+  characterHead: {fileID: 1053161408822485948, guid: 5769787da8d4d644fb897346f94a373f, type: 3}
+  characterBody: {fileID: -6344819674690895660, guid: 5769787da8d4d644fb897346f94a373f, type: 3}
+  characterLegs: {fileID: -5542604226854422451, guid: 5769787da8d4d644fb897346f94a373f, type: 3}
+  characterWeapon: {fileID: 6124719871592572723, guid: 5769787da8d4d644fb897346f94a373f, type: 3}
+  attackClip: {fileID: 8300000, guid: f0ef4abbf26f21349aadfaf81c7c69e1, type: 3}
+  dieClip: {fileID: 8300000, guid: 77b61761939b3fc4e983c21e95dd6e6f, type: 3}
+  hitClip: {fileID: 8300000, guid: 1949462b44fb8e546820cc24e460daf6, type: 3}
+  idleClips:
+  - {fileID: 8300000, guid: f87b3dbec9688f54a9feb921d7fd1099, type: 3}
+  - {fileID: 8300000, guid: ac6f938e3b5ea20459483d184c3cbe31, type: 3}
+  - {fileID: 8300000, guid: 3db5f935a3dfc964fb6c158dd866b5c6, type: 3}
+  idleAnimation: {fileID: 7400000, guid: 7b1b4cf79bf1a774190054af3d1a7f33, type: 2}
+  runAnimation: {fileID: 7400000, guid: 10568fc6e01d43d419514b4c6b6d696f, type: 2}
+  jumpAnimation: {fileID: 7400000, guid: 11a19e567851e8f4e92029a2d6f82a42, type: 2}
+  hurtAnimation: {fileID: 7400000, guid: c3519dc482a1ed548bc741c4a7fc17a7, type: 2}
+  health: 100
+  speed: 5
+  jumpForce: 10
+  dashForce: 5
+  hitAnimation: {fileID: 7400000, guid: 098e3efc1896b59499c99191fbbef176, type: 2}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bde7e65e4ad63c46bfe92c0bd56e94e, type: 3}
+  m_Name: DefaultRobot
+  m_EditorClassIdentifier: 
+  enemyID: 001
+  enemyName: Default Rebot
+  enemyDescription: 
+  enemyHead: {fileID: 0}
+  enemyBody: {fileID: -2248660376921982813, guid: d98760e133a11884a981b0ad1bb63b32, type: 3}
+  enemyLegs: {fileID: -2248860867692721970, guid: d98760e133a11884a981b0ad1bb63b32, type: 3}
+  enemyWeapon: {fileID: -1420422258095732008, guid: d98760e133a11884a981b0ad1bb63b32, type: 3}
+  health: 100
+  detectRange: 20
+  attackRange: 10
+  retreatRange: 5
+  bulletData: {fileID: 11400000, guid: 72867280dfae31946b3ee561be2a3a3e, type: 2}
+  hitClip: {fileID: 8300000, guid: b5ccabbaaea24604db6ed99b8bbb8ce5, type: 3}
+  attackClip: {fileID: 8300000, guid: f0ef4abbf26f21349aadfaf81c7c69e1, type: 3}
+  dieClip: {fileID: 8300000, guid: b5ccabbaaea24604db6ed99b8bbb8ce5, type: 3}
+  idleData: {fileID: 11400000, guid: 0b6d22ca6b31fe2488ada81945073cf3, type: 2}
+  patrolData: {fileID: 11400000, guid: 758b952165910ab43a92482628b8d602, type: 2}
+  chaseData: {fileID: 11400000, guid: f6a7887f53dd6ca4d99dcda9d489e143, type: 2}
+  attackData: {fileID: 11400000, guid: fd4f34c769ace5a44a86708cd89b2a1c, type: 2}
+  dieData: {fileID: 0}

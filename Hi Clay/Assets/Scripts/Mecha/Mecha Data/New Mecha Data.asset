@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4754b6216f3ac4497fd351d08fba3d, type: 3}
+  m_Name: New Mecha Data
+  m_EditorClassIdentifier: 
+  mechaID: 001
+  mechaName: 
+  mechaDescription: 
+  bulletData: {fileID: 11400000, guid: 332c162e94253ed4a88717e17d653fe9, type: 2}
+  mechaHead: {fileID: -6675771726067806698, guid: 72a48baf7034598418bbac0970e8a132, type: 3}
+  mechaBody: {fileID: 6228597643497176427, guid: 72a48baf7034598418bbac0970e8a132, type: 3}
+  mechaShoulder: {fileID: -8066769923511729870, guid: 72a48baf7034598418bbac0970e8a132, type: 3}
+  mechaArm: {fileID: -376987987829969302, guid: 72a48baf7034598418bbac0970e8a132, type: 3}
+  mechaThigh: {fileID: 8767615936775470796, guid: 72a48baf7034598418bbac0970e8a132, type: 3}
+  mechaLegs: {fileID: -1421324546980164426, guid: 72a48baf7034598418bbac0970e8a132, type: 3}
+  attackClip: {fileID: 8300000, guid: f0ef4abbf26f21349aadfaf81c7c69e1, type: 3}
+  dieClip: {fileID: 8300000, guid: 4585cdeb9875ac3459d7be219c5a81e0, type: 3}
+  hitClip: {fileID: 8300000, guid: 4585cdeb9875ac3459d7be219c5a81e0, type: 3}
+  health: 500
+  speed: 5
+  dashForce: 10
+  hitAnimation: {fileID: 7400000, guid: 4dca5822d36fe4d44b78448d741f3a5b, type: 2}

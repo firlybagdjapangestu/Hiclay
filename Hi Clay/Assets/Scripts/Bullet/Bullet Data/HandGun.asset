@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4367a2720bf1274f9133872c838ea43, type: 3}
+  m_Name: HandGun
+  m_EditorClassIdentifier: 
+  bulletName: HandGun
+  health: 10
+  speed: 10
+  damage: 50
+  lifetime: 10
+  fireRate: 5
+  areaOfEffect: 0
+  isPiercing: 0
+  knockbackForce: 0
+  hitEffect: {fileID: 3805158126856204427, guid: e45128f5024200b43afadf1dee5ad2f0, type: 3}
+  hitAnimation: {fileID: 7400000, guid: 7108f77d1694d744980416945b1ec460, type: 2}
+  bulletSprite: {fileID: 2208703988740019828, guid: 2f109f1506a790b479de8320a60e7363, type: 3}
+  bulletGameObject: {fileID: 0}
+  bulletType: 0
